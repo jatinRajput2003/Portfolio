@@ -1,0 +1,199 @@
+/* @media (max-width: 768px) {
+  .hamburger-icon {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  .menu-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+  }
+
+  .menu-links.active {
+      display: flex;
+  }
+
+  .menu-links li {
+      margin: 1rem 0;
+      text-align: center;
+  }
+
+  .section__pic-container, .section__text {
+      text-align: center;
+  }
+
+  .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-details-container, .experience-details-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-containers, .color-container {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+
+  section {
+      padding: 20px 10px;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      clear: both; 
+  }
+
+  #about, #experience, #contact {
+      margin-top: 20px;
+  }  
+
+
+  #about, #experience, #contact {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }   
+
+
+
+  #projects {
+      padding-bottom: 40px; 
+      margin-bottom: 40px;  
+      margin-top: 30rem;
+    padding-top: 100px;
+  }
+
+  #experience {
+      padding-top: 20px; 
+      padding-bottom: 40px; 
+      margin-bottom: 40px;  
+  }
+
+  #projects .experience-details-container {
+      margin-bottom: 20px;
+  }
+
+  #projects .color-container {
+      margin-bottom: 20px;
+  }
+} */
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .hamburger-icon {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  .menu-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+  }
+
+  .menu-links.active {
+      display: flex;
+  }
+
+  .menu-links li {
+      margin: 1rem 0;
+      text-align: center;
+  }
+
+  .section__pic-container, .section__text {
+      text-align: center;
+  }
+
+  .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-details-container, .experience-details-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-containers, .color-container {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  /* Ensure sections do not overlap */
+  section {
+      padding: 20px 10px;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      clear: both; /* Ensure sections clear any floats */
+  }
+
+  /* Specific adjustments for sections */
+  #about, #experience, #projects, #skills, #contact {
+      margin-top: 20px;
+  }
+
+  /* Adjust padding to ensure sufficient spacing */
+  #about, #experience, #projects, #skills, #contact {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  /* Additional adjustments for each section */
+  #projects {
+      padding-bottom: 40px; /* Ensuring extra space at the bottom */
+      margin-bottom: 40px;  /* Ensuring extra space below */
+  }
+
+  #skills {
+      padding-top: 20px; /* Ensuring space at the top */
+      padding-bottom: 40px; /* Ensuring extra space at the bottom */
+      margin-bottom: 40px;  /* Ensuring extra space below */
+  }
+
+  #projects .experience-details-container {
+      margin-bottom: 20px;
+  }
+
+  #projects .color-container {
+      margin-bottom: 20px;
+  }
+
+  /* Responsive project boxes */
+  .project-box {
+      width: 100%; /* Make project boxes take full width on small screens */
+      margin-bottom: 20px; /* Add margin to separate project boxes */
+      padding: 10px;
+      box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+
+  /* Add padding to the parent container if necessary */
+  #projects .projects-container {
+      padding: 0 10px; /* Adjust padding to ensure the project boxes have some space on the sides */
+  }
+}
+
+
